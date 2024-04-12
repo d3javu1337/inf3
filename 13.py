@@ -1,6 +1,6 @@
-from math import sqrt
+a = list(set(input().split('; ')))
 
-a = input().split('; ')
+a = [str(b) for b in sorted([int(x) for x in a])]
 
 d ={}
 
